@@ -8,6 +8,6 @@ RUN pip install -r requirements.txt
 
 COPY hello.py .
 
-EXPOSE 5000
+EXPOSE 5100
 
 CMD python hello.py
